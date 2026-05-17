@@ -1,0 +1,1740 @@
+<html lang="en-us" class=""><!--<![endif]--><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="author" content="Turnitin, LLC">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Turnitin - Instructor Home</title>
+
+    <link rel="icon" href="/r/source/images/logos/company/turnitin-favicon.png">
+<script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-HX5QNRS9GM&amp;cx=c&amp;_slc=1"></script><script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-EJF27WH1D9&amp;cx=c&amp;gtm=4e65e0h2"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-KZFSBQ4"></script><script async="" src="https://web-sdk.aptrinsic.com/api/aptrinsic.js?a=AP-H6XRJYUGEBGP-2"></script><script async="" src="https://client.rum.us-east-1.amazonaws.com/1.19.0/cwr.js"></script><script>
+    Object.defineProperty(window, 'cwrRegion', { value: 'us-west-2', writable: false });
+    Object.defineProperty(window, 'cwrApplicationId', { value: '176db4b4-2e36-4780-8c3f-589b1a25fc84', writable: false });
+    Object.defineProperty(window, 'cwrIdentityPoolId', { value: 'us-west-2:fe629823-d0a2-4f60-bc47-ee4f87986302', writable: false });
+    (function(n,i,v,r,s,c,x,z){x=window.AwsRumClient={q:[],n:n,i:i,v:v,r:r,c:c};window[n]=function(c,p){x.q.push({c:c,p:p});};z=document.createElement('script');z.async=true;z.src=s;document.head.insertBefore(z,document.head.getElementsByTagName('script')[0]);})(
+        'cwr',
+        window.cwrApplicationId || '',
+        '1.0.0',
+        window.cwrRegion || 'us-west-2',
+        'https://client.rum.us-east-1.amazonaws.com/1.19.0/cwr.js',
+        {
+        sessionSampleRate: 0.01,
+        identityPoolId: window.cwrIdentityPoolId || '',
+        endpoint: "https://dataplane.rum.us-west-2.amazonaws.com" ,
+        telemetries: ["performance","errors","http"],
+        allowCookies: true ,
+        enableXRay: false ,
+        signing: true // If you have a public resource policy and wish to send unsigned requests please set this to false
+        }
+    );
+
+    window.addMonitoringEvent = function (name, attributes = {}) {
+        // the NR original also reported the environment.
+        // For AWS that is omitted, because it will be clear from the
+        // different application_ids and data reported by AWS CWR.
+        if (window.cwr) {
+            const urlParams = new URLSearchParams(window.location.search);
+            attributes.language = urlParams.get('lang');
+            cwr('recordEvent', {
+                type: name,
+                data: attributes
+            });
+        }
+    }
+
+    window.addNewRelicEvent = function (name, attributes) {
+        console.warn('"addNewRelicEvent is no longer supported, please use "addMonitoringEvent" instead');
+        window.addMonitoringEvent(name, attributes);
+    }
+</script>
+
+<!-- Gainsight PX javascript user, account and context -->
+<script type="text/javascript">
+    (function(n,t,a,e){var i="aptrinsic";n[i]=n[i]||function(){
+        (n[i].q=n[i].q||[]).push(arguments)},n[i].p=e;
+        var r=t.createElement("script");r.async=!0,r.src=a+"?a="+e;
+        var c=t.getElementsByTagName("script")[0];c.parentNode.insertBefore(r,c)
+    })(window,document,"https://web-sdk.aptrinsic.com/api/aptrinsic.js","AP-H6XRJYUGEBGP-2");
+</script>
+<script type="text/javascript">
+
+    let accountObject, userObject;
+    let globalContextObject = {};
+
+    // Set the user object
+    userObject = {
+        id: "trn:user:us:tfs::1166795370",
+        isThrottled: false,
+        localizationLanguage: "en-US",
+        role: "instructor",
+        environment: "TFS",
+    };
+
+    // Set the global context object
+    globalContextObject = {
+        userId: "trn:user:us:tfs::1166795370",
+        localizationLanguage: "en-US",
+        role: "instructor",
+        environment: "TFS",
+    };
+
+    // Make sure the aptrinsic object is defined before trying to use it
+    if (window.aptrinsic) {
+        // Identify the user and account
+        aptrinsic('identify', userObject, accountObject);
+        // Set the global context object
+        aptrinsic('set', 'globalContext', globalContextObject);
+    }
+
+</script><!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KZFSBQ4');</script>
+<!-- End Google Tag Manager -->
+<link rel="stylesheet" type="text/css" href="/r/build/css/tii/7c126034aef62901773185ffa687a022cb_jquery.fancybox.css" media="screen">
+
+
+<script type="text/javascript" src="/r/build/jsloc/de6dc760a9ab27f1361b0d4ea7a8aef4cb_en_us.js"></script>
+<script>
+    var curr_lang = 'en_us';
+</script>
+
+
+<script type="text/javascript" src="/r/build/js/tii/d38ae2055e603ab76c9175121ca2f54fcb_tii_core.js"></script>
+<script type="text/javascript" src="/r/build/lesscss/4ff99d8057e2f32f94328a49b0e9a62acb_bootstrap.js"></script>
+
+
+
+<script type="text/javascript">
+    // ESTABLISH TII GLOBAL VALUES
+    Tii.cms.global.randomNumber = 0.576120863343998;
+    Tii.cms.global.serverID = '28';
+    Tii.cms.global.sessionID = 'dd27037efce041e3860a53a2872095bc';
+    Tii.cms.global.cookieSession = '1';
+    Tii.cms.global.lang = 'en_us';
+    Tii.cms.global.useEV = '';
+    Tii.cms.global.evBaseUrl = 'https://ev.turnitin.com/auth/ev/120366d673cca1189c451fc821725aa44e6a758ffe91c89877bee7f0aba4ed85';
+    Tii.cms.global.userOptedOutEVBeta = true;
+</script>
+<!--    Popup the warning dialog after $timeout ms.    -->
+<script type="text/javascript">
+    var application_open = false;
+    var the_timeout, the_logout, timeoutDialog;
+
+    YAHOO.util.Event.onDOMReady(function() {
+        timeoutDialog = new YAHOO.widget.Panel('timeoutDialog', {
+            width: '500px',
+            fixedcenter: true,
+            draggable: false,
+            close: false,
+            modal: true,
+            underlay: 'none',
+            visible: false
+        });
+
+        var extendTimerButton = new YAHOO.widget.Button('extend-timer');
+
+        YAHOO.util.Event.addListener('extend-timer-button', 'click', function(e) {
+            YAHOO.util.Event.preventDefault(e);
+            restartTimer();
+            timeoutDialog.hide();
+            YAHOO.util.Connect.initHeader('X-Palladium', '1');
+            YAHOO.util.Connect.asyncRequest('GET', '/session/renew_session?lang=en_us');
+        });
+
+        var loginStart;
+        if (localStorage) {
+            loginStart = parseInt(localStorage.getItem("login.start"), 10);
+        }
+        if (window.getQueryParam('login') && window.getQueryParam('login') === '1' && loginStart) {
+            localStorage.removeItem("login.start");
+            window.addMonitoringEvent(
+                "turnitin.cms.loginTime",
+                {
+                    duration: new Date().getTime() - loginStart
+                }
+            );
+        }
+        timeoutDialog.render();
+        the_timeout = setTimeout('executeTimer();', 10740000);
+    });
+
+    function executeTimer() {
+        if(application_open){return;}
+
+        // when the timer fires, need to check if the user really has been
+        // inactive for the entire timeout. If so, show the dialog
+
+        var success = function(o) {
+            var response = o.responseText;
+
+            if (response) {
+                var inactiveDuration = parseInt(response);
+
+                var timeoutSec = 10740000 / 1000;
+
+                if ( isNaN(inactiveDuration) || (inactiveDuration >= timeoutSec) ) {
+                    // the inactive duration is not readable, or if it's
+                    // beyond the time out, then show the dialog
+                    showDialog();
+                }
+                else {
+                    // don't show the dialog but extend the timer, if the user has
+                    // not been inactive
+
+                    var remainingMs = 10740000;
+
+                    if (!isNaN(inactiveDuration)) {
+                        remainingMs = ( timeoutSec - inactiveDuration ) * 1000;
+                    }
+
+                    the_timeout = setTimeout('executeTimer();', remainingMs);
+                }
+            }
+            else {
+                showDialog();
+            }
+        };
+
+        var failure = function(o) {
+            // if the check call fails, just show the extend dialog
+            showDialog();
+        };
+
+        var callback = {
+            success: success,
+            failure: failure
+        };
+
+        // send the request
+        YAHOO.util.Connect.initHeader('X-Palladium', '1');
+        YAHOO.util.Connect.asyncRequest('GET', '/session/inactive_duration?lang=en_us', callback);
+    }
+
+    function showDialog() {
+        timeoutDialog.show();
+        window.focus();
+        the_logout = setTimeout('logout()', 30000);
+    }
+
+    function logout_main() {
+        self.location="/logout.asp?svr=28&src=0";
+    }
+
+    function restartTimer() {
+        application_open = false;
+        stopTimer();
+        the_timeout = setTimeout('executeTimer();', 10740000);
+    }
+
+    function stopTimer() {
+        if (the_timeout) {
+            clearTimeout(the_timeout);
+        }
+        if (the_logout) {
+            clearTimeout(the_logout);
+        }
+    }
+
+    function logout() {
+        if (window.gm_window) {
+            try {
+                window.gm_window.IP.util.Logger.logInfo('Session timed out by JS with GM open');
+            }
+            catch(e) {
+            }
+        }
+        window.logout_main();
+    }
+
+
+    function display_readonly_alert() {
+        alert('This feature is no longer available because this class has expired and has become read-only. If you would like to extend the expiration date of this class, please return to your class home page and click on the \'edit\' button for this class.');
+    }
+
+    function display_inactive_alert() {
+        alert('This class is inactive and no longer accessible.');
+    }
+
+    function display_a_readonly_alert() {
+        alert('This feature is no longer available because this account has become read-only. For more information, please contact your account administrator.');
+    }
+
+    function display_a_inactive_alert() {
+        alert('This feature is no longer available because this account is inactive. For more information, please contact your account administrator.');
+    }
+
+    function display_s_readonly_alert() {
+        alert('This feature is no longer available because this class has expired and has become read-only. For more information, please contact your instructor.');
+    }
+
+    function display_s_inactive_alert() {
+        alert('This feature is no longer available because this class has expired and is now inactive. For more information, please contact your instructor.');
+    }
+
+    YAHOO.util.Event.onDOMReady(function () {
+        if($("account_sections")){
+            var oMenuBar = new YAHOO.widget.MenuBar("account_sections", {
+                                                        autosubmenudisplay: true,
+                                                        hidedelay: 750,
+                                                        lazyload: true });
+            oMenuBar.render();
+        }
+
+        var ss = new StylesheetSwitcher([
+            {
+                name: 'normal',
+                link: '',
+                element: document.getElementByHandle('normal'),
+                selected: true
+            },
+            {
+                name: 'smaller',
+                link: "/r/build/css/tii/46b1b01ff6727f042568a57157077190cb_tii_cms_small_text.css",
+                element: document.getElementByHandle('smaller')
+            },
+            {
+                name: 'bigger',
+                link: "/r/build/css/tii/033627184bcb1a28b9a846c4b32cb7a8cb_tii_cms_large_text.css",
+                element: document.getElementByHandle('bigger')
+            }
+        ], '/cms_requests.asp', '28');
+
+
+        // initialize jump menu buttons
+        var jumpButtonElements = document.getElementsByHandle('jump_menu_button', '', 'INPUT');
+        for(var i = 0; i < jumpButtonElements.length; i++) {
+            var jumpButton = jumpButtonElements[i];
+
+            var menuElement = document.getElementByHandle('jump_menu_options', jumpButton.parentNode, 'SELECT');
+
+            var button = new YAHOO.widget.Button(jumpButton, {
+                type: "menu",
+                menu: menuElement
+            });
+        }
+
+        // initialize message showing/hiding
+        var closeButtons = document.getElementsByHandle('close',  '', 'a');
+
+        if (closeButtons.length > 0) {
+            var hideMessage = function(e) {
+            var closeButton = $E.getTarget(e);
+
+            var attributes = {
+                opacity: { to: 0 },
+                height: {to: 0},
+                padding: {to: 0}
+            };
+            var anim = new YAHOO.util.Anim(closeButton.parentNode, attributes, 1, YAHOO.util.Easing.easeOut);
+            anim.onComplete.subscribe(function(){
+                closeButton.parentNode.style.display = 'none';
+            })
+            anim.animate();
+
+            $E.stopEvent(e);
+            }
+            $E.on(closeButtons, 'click', hideMessage);
+        }
+
+    });
+
+    function hide_msg(message_id) {
+        var callback = {
+            success:function(o) {
+            },
+            failure:function(o) {
+                alert('could not save preference');
+            }
+        };
+
+        message_id += '';
+        var msg_query_params = [];
+        message_id.split(',').forEach(function(id, i) {
+            msg_query_params.push('msg_to_hide='+id);
+        });
+
+        YAHOO.util.Connect.asyncRequest('GET', '/cms_requests.asp?svr=28&' + msg_query_params.join('&'), callback);
+    }
+
+    function hide_tip(tipid) {
+        var callback = {
+            success:function(o) {
+            },
+            failure:function(o) {
+            }
+        };
+
+        YAHOO.util.Connect.asyncRequest('GET', '/cms_requests.asp?svr=28&tip_to_hide=' + tipid, callback);
+    }
+
+    function setAriaExpanded(id, value) {
+        document.getElementById(id).setAttribute('aria-expanded', value);
+    }
+
+    var mutationObserver = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+            if (mutation.type === "attributes" && mutation.attributeName === "class") {
+                var target;
+                if (mutation.target.id === 'current_user_type') {
+                    target = 'current_user_type-button';
+                } else if (mutation.target.id === 'lang_submit') {
+                    target = 'lang_submit-button';
+                } else {
+                    return; // so nothing else's aria-expanded value gets set
+                }
+                var expanded = /(.)*yui-menu-button-active(.)*/.test(mutation.target.classList) ? "true" : "false";
+                setAriaExpanded(target, expanded);
+            }
+        });
+    });
+
+    /**
+    * Purpose: Initializes tooltips for the entire page. See https://sites.google.com/a/iparadigms.com/feds/site-documentation/tii/tip-tip-tooltips for usage.
+    * Returns: nothing
+    */
+    jQuery(function(){
+
+        // initialize all elements with the tooltip classname
+        jQuery(".tooltip").tipTip({
+            defaultPosition: 'top',
+            delay: 500,
+            maxWidth: '500px',
+            edgeOffset: 6
+        });
+    });
+    jQuery(function() {
+        window.onload = function() {
+            // Hack for IE8 to show full width of student dropdown box
+            if ( jQuery.browser.msie && jQuery.browser.version == '8.0' ) {
+               jQuery(".ip_forms SELECT").css("width", "auto");
+            }
+
+            // set proper attributes for accessibility
+            var userButton = document.getElementById('current_user_type-button');
+            if (typeof userButton !== 'undefined') {
+                userButton.setAttribute('aria-haspopup', 'true');
+                userButton.setAttribute('aria-expanded', 'false');
+                userButton.setAttribute('aria-controls', 'menu_user_type');
+            }
+            var langButton = document.getElementById('lang_submit-button');
+            if (typeof langButton !== 'undefined') {
+                langButton.setAttribute('aria-haspopup', 'true');
+                langButton.setAttribute('aria-expanded', 'false');
+                langButton.setAttribute('aria-controls', 'menu_language');
+            }
+            document.getElementsByClassName('first-of-type')
+                .filter( item => item.tagName=="UL" )
+                .forEach(function(ul) {
+                    ul.setAttribute('role','menu');
+                    ul.setAttribute('tabindex','-1');
+                });
+            document.getElementsByClassName('yuimenuitem').forEach(li => li.setAttribute('role', 'none'));
+            document.getElementsByClassName('yuimenuitemlabel').forEach(function(a) {
+                a.setAttribute('role', 'menuitem');
+                a.setAttribute('tabindex', '-1');
+            });
+            // use observer for these two buttons because they can be toggled without clicking
+            mutationObserver.observe(document.getElementById('current_user_type'), {attributes: true});
+            mutationObserver.observe(document.getElementById('lang_submit'), {attributes: true});
+        };
+    });
+</script>
+
+
+<link rel="stylesheet" type="text/css" href="/r/build/css/tii/3dba5433817c84ed0dc6617ef1bd67b8cb_common.css" media="all">
+<link rel="stylesheet" type="text/css" href="/r/build/css/tii/2c5395559369da21116442a19d825234cb_dynamic_styles.css" media="all">
+<link rel="stylesheet" type="text/css" href="/r/build/css/tii/88ee4ccd3555f2b759921fb5d58d83e5cb_container.css" media="all">
+<link rel="stylesheet" type="text/css" href="/r/build/css/tii/a113630ef9d71c35b51c1117dc8164adcb_tii_master.css" media="screen">
+<link rel="stylesheet" type="text/css" href="/r/build/css/tii/517f96c5e60171330c3a2aa5f841b721cb_tii_cms_print.css" media="print">
+
+
+
+
+<script type="text/javascript" src="/r/build/js/tii/8b608684a5f4aec1b540987c93498c01cb_tii_anonymous_marking.js"></script>
+
+
+<style type="text/css">.fancybox-margin{margin-right:15px;}</style><link rel="stylesheet" type="text/css" href="https://web-sdk.aptrinsic.com/style.css?a=AP-H6XRJYUGEBGP-2"></head>
+<body id="tii_cms"><iframe id="_yuiResizeMonitor" title="Text Resize Monitor" style="position: absolute; visibility: visible; width: 2em; height: 2em; top: -27px; left: 0px; border-width: 0px;"></iframe>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZFSBQ4"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="login-status" role="status">
+You are logged in successfully.
+</div>
+
+<div id="skip">
+<a href="#main_section" tabindex="1">Skip to Main Content</a>
+</div>
+
+<div id="wrapper">
+
+
+
+
+<div id="topline"></div>
+<div id="top_nav_wrap">
+
+
+    <span id="top_nav">
+
+    <!-- Welcome & Language & Help-->
+        <span dir="LTR">
+            <a title="User Info" class="user_full_name" href="user_info.asp?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;">Principal Satyawati College</a>
+            <span class="divider"> | </span>
+            <a title="User Info" href="user_info.asp?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;">User Info</a>
+        </span>
+
+        <span class="divider"> | </span>
+
+        <span dir="LTR"><a href="announcements.asp?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;">Messages (6 new)</a></span>
+
+        <span class="divider"> | </span>
+
+        <!-- Logged in as -->
+
+        <span class="yui-button yui-menu-button" id="current_user_type"><span class="first-child"><button type="button" tabindex="0" id="current_user_type-button" aria-haspopup="true" aria-expanded="false" aria-controls="menu_user_type">Instructor</button></span></span>
+        <div id="user_type_menu" style="z-index: 2; position: absolute; visibility: hidden;" class="yui-module yui-overlay yuimenu yui-overlay-hidden yui-button-menu yui-menu-button-menu">
+            <div class="bd">
+                <ul class="first-of-type" role="menu" tabindex="-1">
+                    
+                    
+                    
+                    
+                    <li class="yuimenuitem first-of-type" id="yui-gen0" groupindex="0" index="0" role="none">
+                        <a class="yuimenuitemlabel" href="user_type.asp?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;ut=s" role="menuitem" tabindex="-1">Student</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+
+        <!-- Select User Type -->
+
+        <span class="divider"> | </span>
+
+        
+        <span id="lang_span" dir="LTR">
+            <form id="lang_form" method="post" action="lang_update.asp?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;" accept-charset="utf-8">
+                <span class="yui-button yui-menu-button" id="lang_submit"><span class="first-child"><button type="button" tabindex="0" title="Click to select a language" id="lang_submit-button" aria-haspopup="true" aria-expanded="false" aria-controls="menu_language">English</button></span></span>
+                
+            </form>
+        </span>
+
+        <span class="divider"> |</span>
+        
+
+
+        
+        <span dir="LTR">
+            
+                <a tabindex="0" href="https://turnitin.forumbee.com" target="_blank">
+            
+                Community
+            </a>
+        </span>
+
+        <span class="divider"> | </span>
+        
+
+        <span id="help-tab" dir="LTR"><a tabindex="0" target="_blank" href="https://guides.turnitin.com/hc/">Help</a></span>
+
+        <span class="divider"> | </span>
+
+        <span dir="LTR"><a tabindex="0" href="logout.asp?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;">Logout</a></span>
+    <div id="yui-gen1" class="yui-module yui-overlay yuimenu yui-overlay-hidden yui-button-menu yui-menu-button-menu" style="z-index: 2; position: absolute; visibility: hidden;"><div class="bd"><ul class="first-of-type" role="menu" tabindex="-1"><li class="yuimenuitem first-of-type" id="yui-gen2" groupindex="0" index="0" role="none"><a href="#" class="yuimenuitemlabel" role="menuitem" tabindex="-1">English</a></li><li class="yuimenuitem" id="yui-gen3" groupindex="0" index="1" role="none"><a href="#" class="yuimenuitemlabel" role="menuitem" tabindex="-1">English (International)</a></li><li class="yuimenuitem" id="yui-gen4" groupindex="0" index="2" role="none"><a href="#" class="yuimenuitemlabel" role="menuitem" tabindex="-1">Čeština</a></li><li class="yuimenuitem" id="yui-gen5" groupindex="0" index="3" role="none"><a href="#" class="yuimenuitemlabel" role="menuitem" tabindex="-1">Deutsch</a></li><li class="yuimenuitem" id="yui-gen6" groupindex="0" index="4" role="none"><a href="#" class="yuimenuitemlabel" role="menuitem" tabindex="-1">Español</a></li><li class="yuimenuitem" id="yui-gen7" groupindex="0" index="5" role="none"><a href="#" class="yuimenuitemlabel" role="menuitem" tabindex="-1">Français</a></li><li class="yuimenuitem" id="yui-gen8" groupindex="0" index="6" role="none"><a href="#" class="yuimenuitemlabel" role="menuitem" tabindex="-1">Italiano</a></li><li class="yuimenuitem" id="yui-gen9" groupindex="0" index="7" role="none"><a href="#" class="yuimenuitemlabel" role="menuitem" tabindex="-1">Nederlands</a></li><li class="yuimenuitem" id="yui-gen10" groupindex="0" index="8" role="none"><a href="#" class="yuimenuitemlabel" role="menuitem" tabindex="-1">Polski</a></li><li class="yuimenuitem" id="yui-gen11" groupindex="0" index="9" role="none"><a href="#" class="yuimenuitemlabel" role="menuitem" tabindex="-1">Português</a></li><li class="yuimenuitem" id="yui-gen12" groupindex="0" index="10" role="none"><a href="#" class="yuimenuitemlabel" role="menuitem" tabindex="-1">Română</a></li><li class="yuimenuitem" id="yui-gen13" groupindex="0" index="11" role="none"><a href="#" class="yuimenuitemlabel" role="menuitem" tabindex="-1">Suomi</a></li><li class="yuimenuitem" id="yui-gen14" groupindex="0" index="12" role="none"><a href="#" class="yuimenuitemlabel" role="menuitem" tabindex="-1">Svenska</a></li><li class="yuimenuitem" id="yui-gen15" groupindex="0" index="13" role="none"><a href="#" class="yuimenuitemlabel" role="menuitem" tabindex="-1">Tiếng việt</a></li><li class="yuimenuitem" id="yui-gen16" groupindex="0" index="14" role="none"><a href="#" class="yuimenuitemlabel" role="menuitem" tabindex="-1">Türkçe</a></li><li class="yuimenuitem" id="yui-gen17" groupindex="0" index="15" role="none"><a href="#" class="yuimenuitemlabel" role="menuitem" tabindex="-1">简体中文</a></li><li class="yuimenuitem" id="yui-gen18" groupindex="0" index="16" role="none"><a href="#" class="yuimenuitemlabel" role="menuitem" tabindex="-1">繁體中文</a></li><li class="yuimenuitem" id="yui-gen19" groupindex="0" index="17" role="none"><a href="#" class="yuimenuitemlabel" role="menuitem" tabindex="-1">日本語</a></li><li class="yuimenuitem" id="yui-gen20" groupindex="0" index="18" role="none"><a href="#" class="yuimenuitemlabel" role="menuitem" tabindex="-1">한국어</a></li><li class="yuimenuitem" id="yui-gen21" groupindex="0" index="19" role="none"><a href="#" class="yuimenuitemlabel" role="menuitem" tabindex="-1">Русский</a></li><li class="yuimenuitem" id="yui-gen22" groupindex="0" index="20" role="none"><a href="#" class="yuimenuitemlabel" role="menuitem" tabindex="-1">عربي</a></li></ul></div></div></span>
+
+</div>
+
+<script type="text/javascript">
+    jQuery.noConflict(); // jQuery must play nicely
+    function initPageSelect() {
+        var userTypeMenu = new YAHOO.widget.Menu('user_type_menu', {
+            context: ['current_user_type', 'tl', 'bl', ['windowResize']],
+            shadow: false
+        });
+        userTypeMenu.render();
+
+        var userTypeButton = new YAHOO.widget.Button('current_user_type', {
+            type: 'menu',
+            menu: userTypeMenu,
+            shadow: false
+        });
+
+        YAHOO.util.Dom.setStyle(['current_user_type', 'user_type_menu'], 'display', '');
+
+        
+        var myMenu = YAHOO.util.Dom.get('lang_select');
+        var langMenu = new YAHOO.widget.Menu('lang_select', {
+            context: ['lang_submit', 'tl', 'bl', ['windowResize']],
+            shadow: false,
+            position: 'dynamic',
+            showdelay: 5000
+        });
+        var langMenuContainer = YAHOO.env.ua.webkit ? 'top_nav' : 'lang_form';
+        langMenu.render(langMenuContainer);
+
+        var selectedLangOptionElement = $D.getElementsBy(function(el){return el.selected}, 'OPTION', 'lang_form')[0];
+        var langSelectButton = new YAHOO.widget.Button('lang_submit', {
+            type: 'menu',
+            menu: langMenu,
+            title: 'Click to select a language',
+            label: selectedLangOptionElement.innerHTML
+        });
+
+        langSelectButton.MENUBUTTON_DEFAULT_TITLE = 'Click to select a language';
+        langSelectButton.MENUBUTTON_MENU_VISIBLE_TITLE = 'Click or press Esc to collapse';
+
+        // need to force the menu y value before showing to get the right initial value
+        langMenu.beforeShowEvent.subscribe(function() {
+            var y = YAHOO.util.Region.getRegion(langSelectButton.get('element')).bottom;
+            this.cfg.setProperty('y', y);
+        }, langMenu, true);
+
+        YAHOO.util.Dom.setStyle(['lang_submit', 'lang_select'], 'display', '');
+        
+    }
+
+    initPageSelect();
+
+</script>
+
+<!-- @@@@@@@@@@ TOP TABS @@@@@@@@@@@@ -->
+<div id="top_tabs_wrapper">
+    <div id="top_tabs">
+
+    
+        
+            
+                <a href="/t_home.asp?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;"><h1><span></span>Turnitin</h1></a>
+            
+        
+    
+
+    <div class="clear"></div>
+    </div>
+</div>
+
+
+
+
+
+<div id="tabs">
+    <ul>
+        
+        <li class="first selected"><a class="sn_accounts" tabindex="2" href="t_home.asp?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;">All Classes</a></li>
+
+        
+        <li class=""><a class="sn_join_ta" tabindex="2" href="t_join_master_class.asp?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;">Join Account (TA)</a></li>
+        
+
+        
+        <li class="last"><a class="sn_quick_submit" tabindex="2" href="t_inbox.asp?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;aid=quicksubmit">Quick Submit</a></li>
+        
+    </ul>
+    <div class="clear"></div>
+</div>
+
+<div id="main_content" class="">
+    <!-- @@@@@@@@@@ BREAD CRUMBS @@@@@@@@@@@@ -->
+    <div id="bread_crumbs">
+        <h2>Now viewing:</h2>
+            <ul>
+                <li>
+                    <a href="t_home.asp?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;">Home</a>
+                </li>
+            </ul>
+        <div class="clear"></div>
+    </div>
+
+    <!-- Alert Message -->
+    
+
+    <!-- Announcement Message -->
+    
+
+    <!-- Error Message -->
+    
+
+    
+
+    
+
+    <!-- Save Message -->
+    
+    
+    <div class="about_info">
+        <h2>About this page</h2>
+        <p>This is your instructor homepage. To create a class, click the "Add Class" button. To display a class's assignments and papers, click the class's name.</p>
+    </div>
+    
+
+    <div id="main_section">
+<script>
+<!--
+function confirmDelete(target, type) {
+    var confirmationQuestion;
+
+    if (type == 'section') {
+        confirmationQuestion = 'Do you want to remove this section from your homepage? Please note that data from this section will not be deleted. You and your students, however, will no longer have access to this section or any papers within the section. If you would like to remove this section, click OK.';
+    }
+    else if (type == 'class') {
+        confirmationQuestion = 'Do you want to remove this class from your homepage? Please note that data from this class will not be deleted. You and your students, however, will no longer have access to this class or any papers within the class. If you would like to remove this class, click OK.';
+    }
+    else if (type == 'master class') {
+        confirmationQuestion = 'Do you want to remove this master class from your homepage? Please note that data from this master class will not be deleted. You and your students, however, will no longer have access to this master class or any papers within the master class. If you would like to remove this master class, click OK.';
+    }
+    else {
+        confirmationQuestion = 'Do you want to remove this from your homepage?  Please note that data from this will not be deleted.  You and your students, however, will no longer have access to this or any papers within it.  If you would like to remove this, click OK.';
+    }
+
+    if (confirm(confirmationQuestion)) {
+        document.t_home_form.victim.value = target;
+        document.t_home_form.submit();
+    }
+}
+
+jQuery(document).ready( function($) {
+    var tiptipElements = $('.tiptip');
+
+    for (var i=0; i < tiptipElements.length; i++) {
+        $(tiptipElements[i]).tipTip({
+            defaultPosition: 'top',
+            delay: 100,
+            maxWidth: '300px',
+            content: $(tiptipElements[i]).next('.tiptip_content').html()
+        });
+    }
+});
+
+-->
+</script>
+
+<form name="t_home_form" method="post" accept-charset="utf-8">
+<input type="hidden" name="msg_to_hide" value="">
+<input type="hidden" name="session_id" value="dd27037efce041e3860a53a2872095bc">
+<input type="hidden" name="victim" value="0">
+
+<div class="ibox">
+    <div class="ibox_header_wrapper">
+        <div class="ibox_header">
+            <div class="ibox_header_inner">
+                <div class="padding yui-skin-sam">
+                    <!-- ###### Title of Acount ########## -->
+                    
+                    <h2><a href="t_account_info.asp?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;aid=153699">College Principals</a></h2>
+                    
+
+                    <div class="_account_controls">
+                        
+                        <!-- ###### Adding a class ########## -->
+                        
+                        <a class="callout-button add-button" href="class?aid=153699&amp;lang=en_us"><span>Add Class</span></a>
+                        
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ibox_body_wrapper">
+        <div class="ibox_tabs">
+            <ul>
+                <li><a href="t_home.asp?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;fo=153699_-1">All Classes</a></li>
+                <li><a href="t_home.asp?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;fo=153699_0">Expired Classes</a></li>
+                <li class="active"><a href="t_home.asp?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;fo=153699_1" aria-current="true">Active Classes</a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+
+        <!-- ###### Account Message ########## -->
+        
+
+         <!-- ###### TABLE HEADERS ########## -->
+        
+        <table>
+            <tbody><tr>
+                <th class="class_id">Class ID</th>
+                <th class="class_name">Class name</th>
+                <th class="class_status">Status</th>
+                <th class="class_start_date">Start Date</th>
+                <th class="class_end_date">End Date</th>
+        
+                <th class="class_update">Edit</th>
+                <th class="class_copy">Copy</th>
+                <th class="class_delete">Delete</th>
+            </tr>
+        
+
+<tr class="class">
+    
+    <td class="class_id">50483538</td>
+
+    
+    
+        
+        <td class="class_name"><a href="/class/50483538/instructor_home?lang=en_us" title="">Physical Education</a></td>
+    
+
+    
+    <td class="class_status">Active</td>
+
+    
+    <td class="class_start_date">08-Oct-2025</td>
+
+    
+    <td class="class_end_date">08-Oct-2026</td>
+
+    
+    
+
+    
+    <td class="class_update"><a aria-label="Physical Education: View/change class info" href="class/50483538/edit?lang=en_us">View/change class info</a>
+        
+    </td>
+
+    
+    <td class="class_copy">
+    
+        <a title="Copy class" aria-label="Physical Education: Copy class" href="/class_copy/50483538/setup?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;">Copy class</a>
+    
+    </td>
+
+    
+    <td class="class_delete">
+    
+        <a aria-label="Physical Education: Delete class" href="javascript:confirmDelete('153699_50483538',
+        'class')">Delete class
+        </a>
+    
+    </td>
+</tr>
+
+<tr class="class">
+    
+    <td class="class_id">50578462</td>
+
+    
+    
+        
+        <td class="class_name"><a href="/class/50578462/instructor_home?lang=en_us" title="">POB</a></td>
+    
+
+    
+    <td class="class_status">Active</td>
+
+    
+    <td class="class_start_date">16-Oct-2025</td>
+
+    
+    <td class="class_end_date">16-Oct-2026</td>
+
+    
+    
+
+    
+    <td class="class_update"><a aria-label="POB: View/change class info" href="class/50578462/edit?lang=en_us">View/change class info</a>
+        
+    </td>
+
+    
+    <td class="class_copy">
+    
+        <a title="Copy class" aria-label="POB: Copy class" href="/class_copy/50578462/setup?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;">Copy class</a>
+    
+    </td>
+
+    
+    <td class="class_delete">
+    
+        <a aria-label="POB: Delete class" href="javascript:confirmDelete('153699_50578462',
+        'class')">Delete class
+        </a>
+    
+    </td>
+</tr>
+
+<tr class="class">
+    
+    <td class="class_id">50578587</td>
+
+    
+    
+        
+        <td class="class_name"><a href="/class/50578587/instructor_home?lang=en_us" title="">POB</a></td>
+    
+
+    
+    <td class="class_status">Active</td>
+
+    
+    <td class="class_start_date">16-Oct-2025</td>
+
+    
+    <td class="class_end_date">16-Oct-2026</td>
+
+    
+    
+
+    
+    <td class="class_update"><a aria-label="POB: View/change class info" href="class/50578587/edit?lang=en_us">View/change class info</a>
+        
+    </td>
+
+    
+    <td class="class_copy">
+    
+        <a title="Copy class" aria-label="POB: Copy class" href="/class_copy/50578587/setup?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;">Copy class</a>
+    
+    </td>
+
+    
+    <td class="class_delete">
+    
+        <a aria-label="POB: Delete class" href="javascript:confirmDelete('153699_50578587',
+        'class')">Delete class
+        </a>
+    
+    </td>
+</tr>
+
+<tr class="class">
+    
+    <td class="class_id">50730412</td>
+
+    
+    
+        
+        <td class="class_name"><a href="/class/50730412/instructor_home?lang=en_us" title="">Mathematics</a></td>
+    
+
+    
+    <td class="class_status">Active</td>
+
+    
+    <td class="class_start_date">31-Oct-2025</td>
+
+    
+    <td class="class_end_date">31-Oct-2026</td>
+
+    
+    
+
+    
+    <td class="class_update"><a aria-label="Mathematics: View/change class info" href="class/50730412/edit?lang=en_us">View/change class info</a>
+        
+    </td>
+
+    
+    <td class="class_copy">
+    
+        <a title="Copy class" aria-label="Mathematics: Copy class" href="/class_copy/50730412/setup?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;">Copy class</a>
+    
+    </td>
+
+    
+    <td class="class_delete">
+    
+        <a aria-label="Mathematics: Delete class" href="javascript:confirmDelete('153699_50730412',
+        'class')">Delete class
+        </a>
+    
+    </td>
+</tr>
+
+<tr class="class">
+    
+    <td class="class_id">51266117</td>
+
+    
+    
+        
+        <td class="class_name"><a href="/class/51266117/instructor_home?lang=en_us" title="">BCOM</a></td>
+    
+
+    
+    <td class="class_status">Active</td>
+
+    
+    <td class="class_start_date">24-Dec-2025</td>
+
+    
+    <td class="class_end_date">24-Dec-2026</td>
+
+    
+    
+
+    
+    <td class="class_update"><a aria-label="BCOM: View/change class info" href="class/51266117/edit?lang=en_us">View/change class info</a>
+        
+    </td>
+
+    
+    <td class="class_copy">
+    
+        <a title="Copy class" aria-label="BCOM: Copy class" href="/class_copy/51266117/setup?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;">Copy class</a>
+    
+    </td>
+
+    
+    <td class="class_delete">
+    
+        <a aria-label="BCOM: Delete class" href="javascript:confirmDelete('153699_51266117',
+        'class')">Delete class
+        </a>
+    
+    </td>
+</tr>
+
+<tr class="class">
+    
+    <td class="class_id">53082295</td>
+
+    
+    
+        
+        <td class="class_name"><a href="/class/53082295/instructor_home?lang=en_us" title="">Research </a></td>
+    
+
+    
+    <td class="class_status">Active</td>
+
+    
+    <td class="class_start_date">03-May-2026</td>
+
+    
+    <td class="class_end_date">04-May-2027</td>
+
+    
+    
+
+    
+    <td class="class_update"><a aria-label="Research : View/change class info" href="class/53082295/edit?lang=en_us">View/change class info</a>
+        
+    </td>
+
+    
+    <td class="class_copy">
+    
+        <a title="Copy class" aria-label="Research : Copy class" href="/class_copy/53082295/setup?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;">Copy class</a>
+    
+    </td>
+
+    
+    <td class="class_delete">
+    
+        <a aria-label="Research : Delete class" href="javascript:confirmDelete('153699_53082295',
+        'class')">Delete class
+        </a>
+    
+    </td>
+</tr>
+
+<tr class="class">
+    
+    <td class="class_id">53109289</td>
+
+    
+    
+        
+        <td class="class_name"><a href="/class/53109289/instructor_home?lang=en_us" title="">BCOMH</a></td>
+    
+
+    
+    <td class="class_status">Active</td>
+
+    
+    <td class="class_start_date">05-May-2026</td>
+
+    
+    <td class="class_end_date">20-May-2027</td>
+
+    
+    
+
+    
+    <td class="class_update"><a aria-label="BCOMH: View/change class info" href="class/53109289/edit?lang=en_us">View/change class info</a>
+        
+    </td>
+
+    
+    <td class="class_copy">
+    
+        <a title="Copy class" aria-label="BCOMH: Copy class" href="/class_copy/53109289/setup?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;">Copy class</a>
+    
+    </td>
+
+    
+    <td class="class_delete">
+    
+        <a aria-label="BCOMH: Delete class" href="javascript:confirmDelete('153699_53109289',
+        'class')">Delete class
+        </a>
+    
+    </td>
+</tr>
+
+<tr class="class">
+    
+    <td class="class_id">53141337</td>
+
+    
+    
+        
+        <td class="class_name"><a href="/class/53141337/instructor_home?lang=en_us" title="">BA Hons Political Science</a></td>
+    
+
+    
+    <td class="class_status">Active</td>
+
+    
+    <td class="class_start_date">07-May-2026</td>
+
+    
+    <td class="class_end_date">07-May-2027</td>
+
+    
+    
+
+    
+    <td class="class_update"><a aria-label="BA Hons Political Science: View/change class info" href="class/53141337/edit?lang=en_us">View/change class info</a>
+        
+    </td>
+
+    
+    <td class="class_copy">
+    
+        <a title="Copy class" aria-label="BA Hons Political Science: Copy class" href="/class_copy/53141337/setup?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;">Copy class</a>
+    
+    </td>
+
+    
+    <td class="class_delete">
+    
+        <a aria-label="BA Hons Political Science: Delete class" href="javascript:confirmDelete('153699_53141337',
+        'class')">Delete class
+        </a>
+    
+    </td>
+</tr>
+
+<tr class="class">
+    
+    <td class="class_id">53165211</td>
+
+    
+    
+        
+        <td class="class_name"><a href="/class/53165211/instructor_home?lang=en_us" title="">ECO-wint'2026 </a></td>
+    
+
+    
+    <td class="class_status">Active</td>
+
+    
+    <td class="class_start_date">09-May-2026</td>
+
+    
+    <td class="class_end_date">30-Jun-2027</td>
+
+    
+    
+
+    
+    <td class="class_update"><a aria-label="ECO-wint'2026 : View/change class info" href="class/53165211/edit?lang=en_us">View/change class info</a>
+        
+    </td>
+
+    
+    <td class="class_copy">
+    
+        <a title="Copy class" aria-label="ECO-wint'2026 : Copy class" href="/class_copy/53165211/setup?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;">Copy class</a>
+    
+    </td>
+
+    
+    <td class="class_delete">
+    
+        <a aria-label="ECO-wint'2026 : Delete class" href="javascript:confirmDelete('153699_53165211',
+        'class')">Delete class
+        </a>
+    
+    </td>
+</tr>
+
+<tr class="class">
+    
+    <td class="class_id">53169811</td>
+
+    
+    
+        
+        <td class="class_name"><a href="/class/53169811/instructor_home?lang=en_us" title="">testing diss</a></td>
+    
+
+    
+    <td class="class_status">Active</td>
+
+    
+    <td class="class_start_date">10-May-2026</td>
+
+    
+    <td class="class_end_date">10-May-2027</td>
+
+    
+    
+
+    
+    <td class="class_update"><a aria-label="testing diss: View/change class info" href="class/53169811/edit?lang=en_us">View/change class info</a>
+        
+    </td>
+
+    
+    <td class="class_copy">
+    
+        <a title="Copy class" aria-label="testing diss: Copy class" href="/class_copy/53169811/setup?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;">Copy class</a>
+    
+    </td>
+
+    
+    <td class="class_delete">
+    
+        <a aria-label="testing diss: Delete class" href="javascript:confirmDelete('153699_53169811',
+        'class')">Delete class
+        </a>
+    
+    </td>
+</tr>
+
+<tr class="class">
+    
+    <td class="class_id">53180789</td>
+
+    
+    
+        
+        <td class="class_name"><a href="/class/53180789/instructor_home?lang=en_us" title="">History</a></td>
+    
+
+    
+    <td class="class_status">Active</td>
+
+    
+    <td class="class_start_date">10-May-2026</td>
+
+    
+    <td class="class_end_date">11-May-2027</td>
+
+    
+    
+
+    
+    <td class="class_update"><a aria-label="History: View/change class info" href="class/53180789/edit?lang=en_us">View/change class info</a>
+        
+    </td>
+
+    
+    <td class="class_copy">
+    
+        <a title="Copy class" aria-label="History: Copy class" href="/class_copy/53180789/setup?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;">Copy class</a>
+    
+    </td>
+
+    
+    <td class="class_delete">
+    
+        <a aria-label="History: Delete class" href="javascript:confirmDelete('153699_53180789',
+        'class')">Delete class
+        </a>
+    
+    </td>
+</tr>
+
+<tr class="class">
+    
+    <td class="class_id">53199146</td>
+
+    
+    
+        
+        <td class="class_name"><a href="/class/53199146/instructor_home?lang=en_us" title="">Political Science </a></td>
+    
+
+    
+    <td class="class_status">Active</td>
+
+    
+    <td class="class_start_date">11-May-2026</td>
+
+    
+    <td class="class_end_date">12-May-2027</td>
+
+    
+    
+
+    
+    <td class="class_update"><a aria-label="Political Science : View/change class info" href="class/53199146/edit?lang=en_us">View/change class info</a>
+        
+    </td>
+
+    
+    <td class="class_copy">
+    
+        <a title="Copy class" aria-label="Political Science : Copy class" href="/class_copy/53199146/setup?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;">Copy class</a>
+    
+    </td>
+
+    
+    <td class="class_delete">
+    
+        <a aria-label="Political Science : Delete class" href="javascript:confirmDelete('153699_53199146',
+        'class')">Delete class
+        </a>
+    
+    </td>
+</tr>
+
+<tr class="class">
+    
+    <td class="class_id">53198737</td>
+
+    
+    
+        
+        <td class="class_name"><a href="/class/53198737/instructor_home?lang=en_us" title="">AI tools</a></td>
+    
+
+    
+    <td class="class_status">Active</td>
+
+    
+    <td class="class_start_date">11-May-2026</td>
+
+    
+    <td class="class_end_date">31-May-2027</td>
+
+    
+    
+
+    
+    <td class="class_update"><a aria-label="AI tools: View/change class info" href="class/53198737/edit?lang=en_us">View/change class info</a>
+        
+    </td>
+
+    
+    <td class="class_copy">
+    
+        <a title="Copy class" aria-label="AI tools: Copy class" href="/class_copy/53198737/setup?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;">Copy class</a>
+    
+    </td>
+
+    
+    <td class="class_delete">
+    
+        <a aria-label="AI tools: Delete class" href="javascript:confirmDelete('153699_53198737',
+        'class')">Delete class
+        </a>
+    
+    </td>
+</tr>
+
+<tr class="class">
+    
+    <td class="class_id">53186735</td>
+
+    
+    
+        
+        <td class="class_name"><a href="/class/53186735/instructor_home?lang=en_us" title="">Copy of History</a></td>
+    
+
+    
+    <td class="class_status">Active</td>
+
+    
+    <td class="class_start_date">11-May-2026</td>
+
+    
+    <td class="class_end_date">11-Nov-2026</td>
+
+    
+    
+
+    
+    <td class="class_update"><a aria-label="Copy of History: View/change class info" href="class/53186735/edit?lang=en_us">View/change class info</a>
+        
+    </td>
+
+    
+    <td class="class_copy">
+    
+        <a title="Copy class" aria-label="Copy of History: Copy class" href="/class_copy/53186735/setup?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;">Copy class</a>
+    
+    </td>
+
+    
+    <td class="class_delete">
+    
+        <a aria-label="Copy of History: Delete class" href="javascript:confirmDelete('153699_53186735',
+        'class')">Delete class
+        </a>
+    
+    </td>
+</tr>
+
+<tr class="class">
+    
+    <td class="class_id">53206501</td>
+
+    
+    
+        
+        <td class="class_name"><a href="/class/53206501/instructor_home?lang=en_us" title="">Bhawna Maths</a></td>
+    
+
+    
+    <td class="class_status">Active</td>
+
+    
+    <td class="class_start_date">12-May-2026</td>
+
+    
+    <td class="class_end_date">13-May-2027</td>
+
+    
+    
+
+    
+    <td class="class_update"><a aria-label="Bhawna Maths: View/change class info" href="class/53206501/edit?lang=en_us">View/change class info</a>
+        
+    </td>
+
+    
+    <td class="class_copy">
+    
+        <a title="Copy class" aria-label="Bhawna Maths: Copy class" href="/class_copy/53206501/setup?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;">Copy class</a>
+    
+    </td>
+
+    
+    <td class="class_delete">
+    
+        <a aria-label="Bhawna Maths: Delete class" href="javascript:confirmDelete('153699_53206501',
+        'class')">Delete class
+        </a>
+    
+    </td>
+</tr>
+
+<tr class="class">
+    
+    <td class="class_id">53214408</td>
+
+    
+    
+
+        
+            <td class="class_name">
+                
+                <a href="tm_class_home.asp?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;aid=153699&amp;cid=53214408" title="">shreya</a>
+                <a class="tii_section_button add_section" alt="add section" href="t_modify_section.asp?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;aid=153699&amp;mc=53214408">Section</a>
+            </td>
+
+        
+    
+
+    
+    <td class="class_status">Active</td>
+
+    
+    <td class="class_start_date">12-May-2026</td>
+
+    
+    <td class="class_end_date">13-May-2027</td>
+
+    
+    
+
+    
+    <td class="class_update"><a aria-label="shreya: View/change class info" href="class/53214408/edit?lang=en_us">View/change class info</a>
+        
+    </td>
+
+    
+    <td class="class_copy">
+    
+        &nbsp;
+    
+    </td>
+
+    
+    <td class="class_delete">
+    
+        <a aria-label="shreya: Delete class" href="javascript:confirmDelete('153699_53214408',
+        'master class')">Delete class
+        </a>
+    
+    </td>
+</tr>
+
+<tr class="class">
+    
+    <td class="class_id">53222496</td>
+
+    
+    
+        
+        <td class="class_name"><a href="/class/53222496/instructor_home?lang=en_us" title="">B.COM</a></td>
+    
+
+    
+    <td class="class_status">Active</td>
+
+    
+    <td class="class_start_date">13-May-2026</td>
+
+    
+    <td class="class_end_date">14-May-2027</td>
+
+    
+    
+
+    
+    <td class="class_update"><a aria-label="B.COM: View/change class info" href="class/53222496/edit?lang=en_us">View/change class info</a>
+        
+    </td>
+
+    
+    <td class="class_copy">
+    
+        <a title="Copy class" aria-label="B.COM: Copy class" href="/class_copy/53222496/setup?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;">Copy class</a>
+    
+    </td>
+
+    
+    <td class="class_delete">
+    
+        <a aria-label="B.COM: Delete class" href="javascript:confirmDelete('153699_53222496',
+        'class')">Delete class
+        </a>
+    
+    </td>
+</tr>
+
+<tr class="class">
+    
+    <td class="class_id">53227989</td>
+
+    
+    
+        
+        <td class="class_name"><a href="/class/53227989/instructor_home?lang=en_us" title="">Dissertation English </a></td>
+    
+
+    
+    <td class="class_status">Active</td>
+
+    
+    <td class="class_start_date">13-May-2026</td>
+
+    
+    <td class="class_end_date">14-May-2027</td>
+
+    
+    
+
+    
+    <td class="class_update"><a aria-label="Dissertation English : View/change class info" href="class/53227989/edit?lang=en_us">View/change class info</a>
+        
+    </td>
+
+    
+    <td class="class_copy">
+    
+        <a title="Copy class" aria-label="Dissertation English : Copy class" href="/class_copy/53227989/setup?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;">Copy class</a>
+    
+    </td>
+
+    
+    <td class="class_delete">
+    
+        <a aria-label="Dissertation English : Delete class" href="javascript:confirmDelete('153699_53227989',
+        'class')">Delete class
+        </a>
+    
+    </td>
+</tr>
+
+<tr class="class">
+    
+    <td class="class_id">53228303</td>
+
+    
+    
+        
+        <td class="class_name"><a href="/class/53228303/instructor_home?lang=en_us" title="">English dissertation </a></td>
+    
+
+    
+    <td class="class_status">Active</td>
+
+    
+    <td class="class_start_date">13-May-2026</td>
+
+    
+    <td class="class_end_date">14-May-2027</td>
+
+    
+    
+
+    
+    <td class="class_update"><a aria-label="English dissertation : View/change class info" href="class/53228303/edit?lang=en_us">View/change class info</a>
+        
+    </td>
+
+    
+    <td class="class_copy">
+    
+        <a title="Copy class" aria-label="English dissertation : Copy class" href="/class_copy/53228303/setup?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;">Copy class</a>
+    
+    </td>
+
+    
+    <td class="class_delete">
+    
+        <a aria-label="English dissertation : Delete class" href="javascript:confirmDelete('153699_53228303',
+        'class')">Delete class
+        </a>
+    
+    </td>
+</tr>
+
+<tr class="class">
+    
+    <td class="class_id">53228539</td>
+
+    
+    
+        
+        <td class="class_name"><a href="/class/53228539/instructor_home?lang=en_us" title="">English dissertation </a></td>
+    
+
+    
+    <td class="class_status">Active</td>
+
+    
+    <td class="class_start_date">13-May-2026</td>
+
+    
+    <td class="class_end_date">14-May-2027</td>
+
+    
+    
+
+    
+    <td class="class_update"><a aria-label="English dissertation : View/change class info" href="class/53228539/edit?lang=en_us">View/change class info</a>
+        
+    </td>
+
+    
+    <td class="class_copy">
+    
+        <a title="Copy class" aria-label="English dissertation : Copy class" href="/class_copy/53228539/setup?r=64.5854642206832&amp;svr=28&amp;lang=en_us&amp;">Copy class</a>
+    
+    </td>
+
+    
+    <td class="class_delete">
+    
+        <a aria-label="English dissertation : Delete class" href="javascript:confirmDelete('153699_53228539',
+        'class')">Delete class
+        </a>
+    
+    </td>
+</tr></tbody></table>
+</div>
+
+<!-- Footer Section Start -->
+<div class="ibox_footer_wrapper">
+	<div class="ibox_footer">
+		<div class="ibox_footer_inner">
+			<div class="padding">
+
+			 <!-- RSS Could go in here -->
+
+			<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer Section End -->
+
+<div class="clear"></div>
+</div>
+</form></div>
+<!-- Main Section Closed -->
+
+<div class="clear"></div>
+</div>
+
+
+<div id="footer_container">
+    <div id="footer">
+        
+        <p>Copyright © 1998 – 2026 <a href="http://www.turnitin.com" target="_blank">Turnitin, LLC</a>. All rights reserved. (<a href="https://guides.turnitin.com/hc/en-us/articles/27377195682317" title="">Privacy Policy</a>)</p>
+        
+
+        <ul>
+            
+
+            
+                
+
+                
+                    <li class="help_button"><a tabindex="5" target="_helpdesk" href="https://helpcenter.turnitin.com/hc/en-us">Helpdesk</a></li>
+                
+
+                
+                    <li><a tabindex="5" href="http://www.plagiarism.org" target="new">Research Resources</a></li>
+                
+
+            
+        </ul>
+    </div>
+</div>
+
+
+<!-- Wrapper Content Closed -->
+<div class="clear"></div>
+
+<!-- Wrapper Content Closed -->
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-145472-24']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+
+    <div class="yui-panel-container" id="timeoutDialog_c"><div id="timeoutDialog" class="modal-dialog yui-module yui-overlay yui-panel" role="alertdialog" tabindex="-1" aria-live="assertive" aria-describedby="alertText" aria-label="timeoutDialog" style="visibility: inherit;">
+        <h2 class="hd">Timeout Warning</h2>
+        <p id="alertText" class="bd">
+            For security reasons, this page will expire in exactly <b>30 seconds.</b> If you would like to continue working on this page without timing out, click "extend session" below.
+        </p>
+        <div class="ft"><span id="extend-timer" class="yui-button yui-link-button"><span class="first-child"><a tabindex="0" href="#" id="extend-timer-button">Extend session</a></span></span></div>
+    </div></div>
+
+
+</div><div class="apt-guide-overlay-top" style="display: none; visibility: hidden;"></div><div class="apt-guide-overlay-bottom" style="display: none; visibility: hidden;"></div><div class="apt-guide-overlay-left" style="display: none; visibility: hidden;"></div><div class="apt-guide-overlay-right" style="display: none; visibility: hidden;"></div><div id="tiptip_holder" style="max-width:500px;"><div id="tiptip_arrow"><div id="tiptip_arrow_inner"></div></div><div id="tiptip_content"></div></div></body></html>

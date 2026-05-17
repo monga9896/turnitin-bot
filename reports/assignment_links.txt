@@ -1,0 +1,52 @@
+Page URL : https://www.turnitin.com/class/53199146/instructor_home?lang=en_us
+Page title: Turnitin - Class Home
+
+─── LINKS ────────────────────────────────────────────
+[(no text)]  →  https://www.turnitin.com/class/53199146/instructor_home?lang=en_us#content
+[Principal Satyawati College]  →  https://www.turnitin.com/user_info.asp?lang=en_us
+[User Info]  →  https://www.turnitin.com/user_info.asp?lang=en_us
+[Messages]  →  https://www.turnitin.com/announcements.asp?lang=en_us
+[(no text)]  →  https://www.turnitin.com/user_type.asp?ut=s&lang=en_us
+[(no text)]  →  https://www.turnitin.com/class/53199146/instructor_home?lang=en_us
+[(no text)]  →  https://www.turnitin.com/class/53199146/instructor_home?lang=en_int&set_lang=1
+[(no text)]  →  https://www.turnitin.com/class/53199146/instructor_home?lang=cs&set_lang=1
+[(no text)]  →  https://www.turnitin.com/class/53199146/instructor_home?lang=de&set_lang=1
+[(no text)]  →  https://www.turnitin.com/class/53199146/instructor_home?lang=es&set_lang=1
+[(no text)]  →  https://www.turnitin.com/class/53199146/instructor_home?lang=fr&set_lang=1
+[(no text)]  →  https://www.turnitin.com/class/53199146/instructor_home?lang=it&set_lang=1
+[(no text)]  →  https://www.turnitin.com/class/53199146/instructor_home?lang=nl&set_lang=1
+[(no text)]  →  https://www.turnitin.com/class/53199146/instructor_home?lang=pl&set_lang=1
+[(no text)]  →  https://www.turnitin.com/class/53199146/instructor_home?lang=pt_br&set_lang=1
+[(no text)]  →  https://www.turnitin.com/class/53199146/instructor_home?lang=ro&set_lang=1
+[(no text)]  →  https://www.turnitin.com/class/53199146/instructor_home?lang=fi&set_lang=1
+[(no text)]  →  https://www.turnitin.com/class/53199146/instructor_home?lang=sv&set_lang=1
+[(no text)]  →  https://www.turnitin.com/class/53199146/instructor_home?lang=vi&set_lang=1
+[(no text)]  →  https://www.turnitin.com/class/53199146/instructor_home?lang=tr&set_lang=1
+[(no text)]  →  https://www.turnitin.com/class/53199146/instructor_home?lang=zh_hans&set_lang=1
+[(no text)]  →  https://www.turnitin.com/class/53199146/instructor_home?lang=zh_tw&set_lang=1
+[(no text)]  →  https://www.turnitin.com/class/53199146/instructor_home?lang=ja&set_lang=1
+[(no text)]  →  https://www.turnitin.com/class/53199146/instructor_home?lang=ko&set_lang=1
+[(no text)]  →  https://www.turnitin.com/class/53199146/instructor_home?lang=ru&set_lang=1
+[(no text)]  →  https://www.turnitin.com/class/53199146/instructor_home?lang=ar&set_lang=1
+[Community]  →  https://turnitin.forumbee.com/
+[Help]  →  https://guides.turnitin.com/hc/
+[Logout]  →  https://www.turnitin.com/logout.asp?lang=en_us
+[(no text)]  →  https://www.turnitin.com/t_home.asp?lang=en_us
+[Assignments]  →  https://www.turnitin.com/class/53199146/instructor_home?lang=en_us
+[Students]  →  https://www.turnitin.com/t_students.asp?lang=en_us
+[HOME]  →  https://www.turnitin.com/t_home.asp?lang=en_us
+[POLITICAL SCIENCE]  →  https://www.turnitin.com/class/53199146/instructor_home?lang=en_us
+[Add Assignment]  →  https://www.turnitin.com/t_modify_assignment.asp?lang=en_us
+[View]  →  javascript:viewAssignmentCAA( 'instructor', '53199146', 'trn:assignmenttemplate:ap:lti:153699:86efe946-e858-4206-a668-53456530db1c', 'trn:assignment:ap:tfs:153699:ebe99ad9-4321-45e3-a438-784adceec209' );
+[More actions]  →  https://www.turnitin.com/class/53199146/instructor_home?lang=en_us#
+[(no text)]  →  javascript:confirmDeleteCAA( 'trn:assignment:ap:tfs:153699:ebe99ad9-4321-45e3-a438-784adceec209', 'Standard (New)' );
+[Turnitin, LLC]  →  http://www.turnitin.com/
+[Privacy Policy]  →  https://help.turnitin.com/Privacy_and_Security/Privacy_and_Security.htm
+[Helpdesk]  →  https://helpcenter.turnitin.com/hc/en-us
+[Research Resources]  →  http://www.plagiarism.org/
+
+─── BUTTONS ──────────────────────────────────────────
+[button] Instructor
+[button] English
+
+─── SUBMIT INPUTS ────────────────────────────────────
