@@ -3,6 +3,7 @@ import os
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -15,7 +16,6 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 CHROMIUM_PATH = "/nix/store/qa9cnw4v5xkxyip6mb9kxqfq1z4x2dx1-chromium-138.0.7204.100/bin/chromium-browser"
-CHROMEDRIVER_PATH = "/nix/store/8zj50jw4w0hby47167kqqsaqw4mm5bkd-chromedriver-unwrapped-138.0.7204.100/bin/chromedriver"
 
 # Matches the installed Chromium version; keeps User-Agent consistent
 CHROME_USER_AGENT = (
@@ -77,7 +77,7 @@ def build_driver(user_data_dir: str | None = None) -> webdriver.Chrome:
         options.add_argument("--profile-directory=Default")
         logger.info("Using persistent Chrome profile at: %s", user_data_dir)
 
-    service = Service(executable_path=CHROMEDRIVER_PATH)
+    service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=options)
 
     # ── Stealth: hide navigator.webdriver on every page load ──────────────
