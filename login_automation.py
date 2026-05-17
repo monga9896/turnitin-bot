@@ -79,11 +79,10 @@ def build_driver(user_data_dir: str | None = None) -> webdriver.Chrome:
 
     service = Service(ChromeDriverManager(driver_version="138.0.7204.100").install())
 
-os.chmod(service.path, 0o755)
-print("ChromeDriver path:", service.path)
-    
-driver = webdriver.Chrome(service=service, options=options)
+    os.chmod(service.path, 0o755)
+    print("ChromeDriver path:", service.path)
 
+    driver = webdriver.Chrome(service=service, options=options)
     # ── Stealth: hide navigator.webdriver on every page load ──────────────
     driver.execute_cdp_cmd(
         "Page.addScriptToEvaluateOnNewDocument",
