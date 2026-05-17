@@ -77,7 +77,7 @@ def build_driver(user_data_dir: str | None = None) -> webdriver.Chrome:
         options.add_argument("--profile-directory=Default")
         logger.info("Using persistent Chrome profile at: %s", user_data_dir)
 
-    service = Service(ChromeDriverManager().install())
+    service = Service(ChromeDriverManager(driver_version="138.0.7204.100").install())
     driver = webdriver.Chrome(service=service, options=options)
 
     # ── Stealth: hide navigator.webdriver on every page load ──────────────
