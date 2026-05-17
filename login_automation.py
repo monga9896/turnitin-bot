@@ -79,7 +79,6 @@ def build_driver(user_data_dir: str | None = None) -> webdriver.Chrome:
 
     service = Service(ChromeDriverManager(driver_version="138.0.7204.100").install())
 
-    import os
 os.chmod(service.path, 0o755)
 print("ChromeDriver path:", service.path)
     
