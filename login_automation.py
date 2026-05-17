@@ -78,7 +78,7 @@ def build_driver(user_data_dir: str | None = None) -> webdriver.Chrome:
         logger.info("Using persistent Chrome profile at: %s", user_data_dir)
 
         service = Service(CHROMEDRIVER_PATH)
-    driver = webdriver.Chrome(service=service, options=options)
+        driver = webdriver.Chrome(service=service, options=options)
     # ── Stealth: hide navigator.webdriver on every page load ──────────────
     driver.execute_cdp_cmd(
         "Page.addScriptToEvaluateOnNewDocument",
